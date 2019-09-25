@@ -39,5 +39,5 @@ new Handler().postDelayed(new Runnable() {
     public void run() {
         textView.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
     }
-}, 1000);
+}, 1000); // Seconds
 ```

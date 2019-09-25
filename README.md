@@ -29,3 +29,15 @@ Thread thread = new Thread(){
 
 thread.start();
 ```
+
+
+# Con Handler
+
+```java
+new Handler().postDelayed(new Runnable() {
+    @Override
+    public void run() {
+        textView.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
+    }
+}, 1000);
+```
